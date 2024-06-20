@@ -1,0 +1,147 @@
+
+/* importation de la police*/
+@font-face {
+    font-family: pop;
+    src: url(../Pages/Poppins-Bold.ttf);
+}
+
+/* Customization de la nav bar*/
+.navbar{
+    background-color: rgba(240, 248, 255, 0.171);
+    border-bottom: solid rgb(17, 15, 15);
+    backdrop-filter: blur(8px);
+    z-index: 999;
+}
+
+.navbar .navbar-nav .nav-link{
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: black;
+}
+
+/* zone d'acceuil ( hero) */
+
+#hero{
+    min-height: 200vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.473)),   url('../Medias/profil002.jpg');
+    background-size: cover;
+   background-position: center;
+   padding-bottom: 0;
+}
+ div .des{
+    padding-top: 140px;
+    font-weight: bold;
+    font-size: 70px;
+    color: beige;
+}
+div .des img{
+    position: relative;
+    margin-left: 600px;
+    background-color: bisque;
+    border-radius: 100px;
+}
+
+#desc{
+    background-color: black;
+}
+
+#description h1{
+    font-size: 15px;
+
+}
+#description img{
+    border-radius: 18px;
+
+}
+/*customisation de la zone réseaux*/
+
+#réseau{
+    min-height: 200vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.904), rgba(0, 0, 0, 0.658)),   url('../Medias/IMG_4270\ \(1\).png');
+    background-size: cover;
+   background-position: center;
+   padding-bottom: 0;
+}
+#spa img{
+    background-color:rgb(149, 152, 155);
+    border-radius: 30px;
+}
+#txt p{
+
+    font-size: 30px;
+}
+
+ div .ctn{
+    margin-top: 500px;
+}
+
+/*img de collaboration custumiation*/
+#moi img{
+    border-radius: 100px;
+    margin-top: 50px;
+    opacity: 45%;
+}
+
+/*customisation du cursel*/
+
+#carouselExampleIndicators{
+    position: relative;
+    margin-top: 150px;
+}
+/*custom de contact*/
+#contact{
+    min-height: 140vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.932), rgba(0, 0, 0, 0.705)),   url('../Medias/IMG-20230714-WA0054\ \(1\).jpg');
+    background-size: cover;
+   background-position: center;
+   padding-bottom: 0;
+}
+
+#contact h5{
+    color: rgba(255, 255, 255, 0.466);
+}
+
+#cardcolb div .carte{
+    
+    position: relative;
+    margin-left: 350px;
+}
+
+
+/* footre custom*/
+
+footer #pied{
+    background-color: rgba(0, 0, 0, 0.801);
+    text-decoration-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer #pied div .rxd{
+    border-radius: 50px;
+
+}
+
+
+@media (max-width:750px){
+    div .des{
+        font-size: 35px;
+    }
+    div .des img{
+        margin-left: 150px;
+    }
+    
+}
+@media (min-width:750px){
+
+    #description{
+        display: flex;
+
+    }
+    #description img{
+
+        
+        
+
+    }
+
+}
